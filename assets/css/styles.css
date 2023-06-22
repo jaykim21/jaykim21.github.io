@@ -1,5 +1,5 @@
 body {
-    background-color: #001a3f;
+    
     font-family: 'Raleway', sans-serif;
     color: #fff;
     font-size: 16px;
@@ -272,6 +272,15 @@ h6 {
 
 /* Media Queries */
 
+
+@media(max-width: 1199px) {
+    .navbar .nav-item a {
+        font-size: 14px;
+    }
+}
+  
+
+
 @media(max-width: 991px) {
     .navbar-nav {
         background-color: #07184b;
@@ -343,6 +352,10 @@ h6 {
     .section-default-reverse .content {
         padding-left: 0;
         padding-top: 20px;
+    }
+
+    .section-default .content {
+        padding-right: 0;
     }
 
     .section {
